@@ -129,4 +129,10 @@ html {
     grid-template-areas: "supervisor     team-builder    calculator" "supervisor     karma           calculator";
     max-width: 1000px;
   }
+  .title__main {
+    font-size: 3rem;
+  }
+  .title__sub {
+    font-size: 3rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

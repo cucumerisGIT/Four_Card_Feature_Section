@@ -171,4 +171,14 @@ html {
             "supervisor     karma           calculator";
         max-width: 1000px;
     }
+
+    .title {
+        &__main {
+            font-size: 3rem;
+        }
+
+        &__sub {
+            font-size: 3rem;
+        }
+    }
 }
