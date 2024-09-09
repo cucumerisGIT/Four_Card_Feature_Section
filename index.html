@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+    <title>Frontend Mentor | Four card feature section</title>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="title">
+      <h1 class="title__main">Powered by Technology</h1>
+      <h2 class="title__sub">Reliable, efficient delivery</h2>
+      <p class="title__desc">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <!-- CONTENT GRID -->
+      <div class="card-grid">
+        <!-- SUPERVISOR CARD -->
+        <div class="card card--border-cyan card--grid-area-supervisor">
+          <h3 class="card__title">Supervisor</h3>
+          <p class="card__desc">Monitors activity to identify project roadblocks</p>
+          <img class="card__image" src="images/icon-supervisor.svg" alt="supervisor icon">
+        </div>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+        <!-- TEAM BUILDER CARD -->
+        <div class="card card--border-red card--grid-area-team-builder">
+          <h3 class="card__title">Team Builder</h3>
+          <p class="card__desc">Scans our talent network to create the optimal team for your project</p>
+          <img class="card__image" src="images/icon-team-builder.svg" alt="team builder icon">
+        </div>
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+        <!-- KARMA CARD -->
+        <div class="card card--border-orange card--grid-area-karma">
+          <h3 class="card__title">Karma</h3>
+          <p class="card__desc">Regularly evaluates our talent to ensure quality</p>
+          <img class="card__image" src="images/icon-karma.svg" alt="karma icon">
+        </div>
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+        <!-- CALCULATOR CARD -->
+        <div class="card card--border-blue card--grid-area-calculator">
+          <h3 class="card__title">Calculator</h3>
+          <p class="card__desc">Uses data from past projects to provide better delivery estimates</p>
+          <img class="card__image" src="images/icon-calculator.svg" alt="calculator icon">
+        </div>
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+      </div>
+    </main>
 
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">cucumeris</a>.
+      </p>
+    </footer>
+  </body>
 </html>
